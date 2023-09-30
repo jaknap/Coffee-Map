@@ -12,6 +12,7 @@ const myIcon = new Icon({
 
 function App() {
   return (
+    <div>
       <MapContainer
         center={[51.505, -0.09]}  // Initial position latitude and longitude
         zoom={12}                  // Initial zoom level
@@ -41,7 +42,10 @@ function App() {
       Coffee Shop!
       </Popup>
       </Marker>  */}
+      
       </MapContainer>
+      <h1>Coffee Map</h1>
+      </div>
     );
 
 }
